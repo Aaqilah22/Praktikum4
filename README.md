@@ -1,5 +1,6 @@
 # Praktikum 4
-**MEMBUAT TABEL PEGAWAI**
+# MEMBUAT TABEL PEGAWAI
+
 CREATE TABLE pegawai (
     idpegawai VARCHAR(20) PRIMARY KEY ,
     nama_depan VARCHAR(20),
