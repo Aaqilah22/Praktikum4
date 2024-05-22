@@ -19,9 +19,8 @@ CREATE TABLE pegawai (
     
     gaji INT,
     
-    tunjangan INT
-
-);
+    tunjangan INT 
+    );
 
 ![Screenshot 2024-05-22 122535](https://github.com/Aaqilah22/Praktikum4/assets/148038188/cd23427c-7fcf-4812-bc4d-fc4517778d8f)
 
