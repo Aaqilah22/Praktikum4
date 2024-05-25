@@ -76,16 +76,12 @@ SELECT MAX(gaji) AS Gaji_Tertinggi FROM pegawai;
 
 # Membuat Tabel Hewan
 ```SQL
-CREATE TABLE pegawai (
-    idpegawai VARCHAR(20) PRIMARY KEY ,
-    nama_depan VARCHAR(20),
-    nama_belakang VARCHAR(20),
-    email VARCHAR(15),
-    telepon VARCHAR(15),
-    tgl_kontrak DATE,
-    id_job VARCHAR(10),
-    gaji INT,
-    tunjangan INT
+CREATE TABLE hewan (
+    id VARCHAR(10) PRIMARY KEY,
+    name VARCHAR(50),
+    owner VARCHAR(50),
+    species VARCHAR(50),
+    sex CHAR(1)
 );
 ```
 ## Memasukan Data Ke Dalam Tabel
